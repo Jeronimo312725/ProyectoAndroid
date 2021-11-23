@@ -4,89 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
-    android:onClick="boton"
+
+    android:background="@drawable/fondito"
+    android:onClick="boton3"
     tools:context=".MainActivity">
+    setVisible()true;
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="111dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="36dp"
-        android:background="@drawable/button_2"
-        android:onClick="boton"
-        android:text="Boton 2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="108dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="124dp"
-        android:background="@drawable/button_2"
-        android:onClick="boton"
-        android:text="Button"
-        app:iconTint="@color/teal_200"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="103dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/button_4"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_2"
-        android:onClick="boton"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="107dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/button_2"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="178dp"
-        android:layout_height="52dp"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="24dp"
-        android:text="Botones"
-        android:textSize="34sp"
+        android:background="@drawable/numerotri"
+        android:onClick="boton3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/numerotri" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="94dp"
-        android:layout_height="109dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="40dp"
-        android:onClick="boton"
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/calabera"
+        android:onClick="boton1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/calabera" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/oso"
+        android:onClick="boton2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/oso" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/five"
+        android:onClick="boton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/five" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/four"
+        android:onClick="boton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/four" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/siz"
+        android:onClick="boton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/siz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
